@@ -50,11 +50,10 @@ projects[wysiwyg][subdir]                 = contrib
 projects[wysiwyg][patch][]                = https://drupal.org/files/wysiwyg-ckeditor-4.1853550.136.patch
 
 ; OMBU Modules
-projects[profile_tools][subdir]                = custom
-projects[profile_tools][download][type]        = git
-projects[profile_tools][download][url]         = git@github.com:ombu/drupal-profile-tools.git
-projects[profile_tools][download][tag]         = 0.2
-projects[profile_tools][type]                  = module
+projects[profile_tasks][subdir]                = custom
+projects[profile_tasks][download][type]        = git
+projects[profile_tasks][download][url]         = git@github.com:ombu/drupal-profile-tasks.git
+projects[profile_tasks][type]                  = module
 
 projects[ombucleanup][subdir]             = custom
 projects[ombucleanup][download][type]     = git
