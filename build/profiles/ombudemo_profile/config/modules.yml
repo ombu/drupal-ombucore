@@ -1,2 +1,2 @@
 add:
-  - [__SHORTNAME__]_base
+  - __SHORTNAME___base
