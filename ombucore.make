@@ -1,14 +1,11 @@
 ; Core make file for OMBU projects in Drupal 7.x
 
-core = 7.x
-
 api = 2
-projects[] = drupal
 
 ; Contrib Modules
 projects[bean][subdir]                    = contrib
 projects[context][subdir]                 = contrib
-projects[select2][subdir]                  = contrib
+projects[select2][subdir]                 = contrib
 projects[ctools][subdir]                  = contrib
 projects[devel][subdir]                   = contrib
 projects[diff][subdir]                    = contrib
