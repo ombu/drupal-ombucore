@@ -1,5 +1,7 @@
 ; Core make file for OMBU projects in Drupal 7.x
 
+core = 7.x
+
 api = 2
 
 ; Contrib Modules
