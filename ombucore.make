@@ -59,7 +59,7 @@ projects[profile_tasks][type]                  = module
 projects[ombucleanup][subdir]             = custom
 projects[ombucleanup][download][type]     = git
 projects[ombucleanup][download][url]      = git@github.com:ombu/drupal-ombucleanup.git
-projects[ombucleanup][download][branch]   = feature/profile-tasks
+projects[ombucleanup][download][tag]      = 0.4.1
 projects[ombucleanup][type]               = module
 
 projects[ombudashboard][subdir]           = custom
