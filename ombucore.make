@@ -101,7 +101,7 @@ projects[ombuslide][type]                 = module
 projects[customauthor][subdir]            = custom
 projects[customauthor][download][type]    = git
 projects[customauthor][download][url]     = git@github.com:ombu/drupal-customauthor.git
-projects[customauthor][download][tag]     = 0.1
+projects[customauthor][download][tag]     = 0.2
 projects[customauthor][type]              = module
 
 projects[bean_style][subdir]            = custom
