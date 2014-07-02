@@ -23,11 +23,11 @@ function default_profile_install_tasks() {
  *   An array of information about the current installation state.
  */
 function default_profile_install_task_router($install_state) {
-  $loader = profile_tools_autoload();
+  $loader = profile_tasks_autoload();
 
   // Uncomment if you wish to add custom tasks or override default tasks.
   // $loader->add('default_profile', DRUPAL_ROOT . '/' . drupal_get_path('profile', 'default_profile') . '/lib');
 
-  $installer = new ProfileTools\Installer\Installer($install_state);
+  $installer = new ProfileTasks\Installer\Installer($install_state);
   $installer->processTasks();
 }
