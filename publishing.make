@@ -18,4 +18,5 @@ projects[date][subdir]                   = contrib
 projects[ombubench][subdir]              = custom
 projects[ombubench][download][type]      = git
 projects[ombubench][download][url]       = git@bitbucket.org:ombu/drupal-ombubench.git
+projects[ombubench][download][tag]       = 0.1
 projects[ombubench][type]                = module
