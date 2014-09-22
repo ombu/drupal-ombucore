@@ -54,31 +54,31 @@ projects[wysiwyg][patch][]                = https://drupal.org/files/wysiwyg-cke
 projects[profile_tasks][subdir]           = custom
 projects[profile_tasks][download][type]   = git
 projects[profile_tasks][download][url]    = git@github.com:ombu/drupal-profile-tasks.git
-projects[profile_tasks][download][tag]    = 0.1
+projects[profile_tasks][download][tag]    = 0.1.1
 projects[profile_tasks][type]             = module
 
 projects[ombucleanup][subdir]             = custom
 projects[ombucleanup][download][type]     = git
 projects[ombucleanup][download][url]      = git@github.com:ombu/drupal-ombucleanup.git
-projects[ombucleanup][download][tag]      = 0.4.2
+projects[ombucleanup][download][tag]      = 0.4.3
 projects[ombucleanup][type]               = module
 
 projects[ombudashboard][subdir]           = custom
 projects[ombudashboard][download][type]   = git
 projects[ombudashboard][download][url]    = git@github.com:ombu/drupal-ombudashboard.git
-projects[ombudashboard][download][tag]    = 0.3
+projects[ombudashboard][download][tag]    = 0.3.1
 projects[ombudashboard][type]             = module
 
 projects[ombuseo][subdir]                 = custom
 projects[ombuseo][download][type]         = git
 projects[ombuseo][download][url]          = git@github.com:ombu/drupal-ombuseo.git
-projects[ombuseo][download][tag]          = 0.4
+projects[ombuseo][download][tag]          = 0.4.1
 projects[ombuseo][type]                   = module
 
 projects[ombubeans][subdir]               = custom
 projects[ombubeans][download][type]       = git
 projects[ombubeans][download][url]        = git@github.com:ombu/drupal-ombubeans.git
-projects[ombubeans][download][tag]        = 0.3
+projects[ombubeans][download][tag]        = 0.3.1
 projects[ombubeans][type]                 = module
 
 projects[beancontainer][subdir]           = custom
@@ -90,7 +90,7 @@ projects[beancontainer][type]             = module
 projects[tiles][subdir]                   = custom
 projects[tiles][download][type]           = git
 projects[tiles][download][url]            = git@github.com:ombu/drupal-tiles.git
-projects[tiles][download][tag]            = 0.3
+projects[tiles][download][tag]            = 0.3.1
 projects[tiles][type]                     = module
 
 projects[ombuslide][subdir]               = custom
@@ -108,20 +108,22 @@ projects[customauthor][type]              = module
 projects[bean_style][subdir]            = custom
 projects[bean_style][download][type]    = git
 projects[bean_style][download][url]     = git@github.com:ombu/drupal-bean-style.git
-projects[bean_style][download][tag]     = 0.1
+projects[bean_style][download][tag]     = 0.1.1
 projects[bean_style][type]              = module
 
 ; OMBU Themes
 projects[boots][download][type]           = git
 projects[boots][download][url]            = git@github.com:ombu/drupal-boots.git
-projects[boots][download][tag]            = 0.4
+projects[boots][download][tag]            = 0.4.2
 projects[boots][type]                     = theme
 
 ; Libraries
 libraries[ckeditor][download][type]       = get
 libraries[ckeditor][download][url]        = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2.1/ckeditor_4.2.1_full.zip
+
 libraries[htmlpurifier][download][type]   = get
 libraries[htmlpurifier][download][url]    = http://htmlpurifier.org/releases/htmlpurifier-4.6.0.zip
+
 libraries[select2][download][type]         = get
 libraries[select2][download][url]          = https://github.com/ivaynberg/select2/archive/3.4.5.zip
 libraries[select2][directory_name]         = select2
