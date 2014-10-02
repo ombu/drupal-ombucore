@@ -41,6 +41,8 @@ projects[media][version]                  = 2.0-alpha1
 projects[media][patch][]                  = https://gist.githubusercontent.com/duellj/9957265/raw/b7f2ba0e222e52a6b5a65dfced020ac6adcd4dc5/gistfile1.diff
 
 projects[file_entity][subdir]             = contrib
+projects[file_entity][patch][]            = https://www.drupal.org/files/2052461-file-usage-filter-boolean-8.patch
+
 projects[oembed][subdir]                  = contrib
 projects[oembed][version]                 = 1
 
