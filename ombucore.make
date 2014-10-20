@@ -33,6 +33,7 @@ projects[date_popup_authored][subdir]     = contrib
 
 projects[htmlpurifier][subdir]            = contrib
 projects[htmlpurifier][version]           = 2.x-dev
+projects[htmlpurifier][patch][]           = https://www.drupal.org/files/issues/2298959-5-htmlpurifier-alter_definition-7.x-2.x.patch
 
 projects[media][subdir]                   = contrib
 projects[media][version]                  = 2.0-alpha1
