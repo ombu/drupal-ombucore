@@ -46,6 +46,7 @@ projects[file_entity][patch][]            = https://www.drupal.org/files/2052461
 
 projects[oembed][subdir]                  = contrib
 projects[oembed][version]                 = 1
+projects[oembed][patch][]                 = https://www.drupal.org/files/oembed-2021015-1.patch
 
 projects[special_menu_items][subdir]      = contrib
 projects[special_menu_items][patch][]     = https://drupal.org/files/special_menu_items-2102509-1.patch
