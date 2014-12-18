@@ -36,10 +36,10 @@ def qa():
     # env.host_webserver_user = 'www-data'
     # env.host_site_path = '/var/www/qaX'
     # env.public_path = 'current'
-    # env.db_db = 'qaX'
-    # env.db_user = 'phpuser'
-    # env.db_pw = 'meh'
-    # env.db_host = 'qadb.cpuj5trym3at.us-west-2.rds.amazonaws.com'
+    # env.settings.db_db = 'qaX'
+    # env.settings.db_user = 'phpuser'
+    # env.settings.db_pw = 'meh'
+    # env.settings.db_host = 'qadb.cpuj5trym3at.us-west-2.rds.amazonaws.com'
 
 @task
 def staging():
@@ -52,7 +52,7 @@ def staging():
     # env.host_webserver_user = 'www-data'
     # env.host_site_path = '/var/www/stageX'
     # env.public_path = 'current'
-    # env.db_db = 'stageX'
-    # env.db_user = 'phpuser'
-    # env.db_pw = 'meh'
-    # env.db_host = 'qadb.cpuj5trym3at.us-west-2.rds.amazonaws.com'
+    # env.settings.db_db = 'stageX'
+    # env.settings.db_user = 'phpuser'
+    # env.settings.db_pw = 'meh'
+    # env.settings.db_host = 'qadb.cpuj5trym3at.us-west-2.rds.amazonaws.com'

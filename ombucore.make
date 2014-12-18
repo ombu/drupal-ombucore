@@ -33,6 +33,7 @@ projects[date_popup_authored][subdir]     = contrib
 
 projects[htmlpurifier][subdir]            = contrib
 projects[htmlpurifier][version]           = 2.x-dev
+projects[htmlpurifier][patch][]           = https://www.drupal.org/files/issues/2298959-5-htmlpurifier-alter_definition-7.x-2.x.patch
 
 projects[media][subdir]                   = contrib
 projects[media][version]                  = 2.0-alpha1
@@ -45,6 +46,7 @@ projects[file_entity][patch][]            = https://www.drupal.org/files/2052461
 
 projects[oembed][subdir]                  = contrib
 projects[oembed][version]                 = 1
+projects[oembed][patch][]                 = https://www.drupal.org/files/oembed-2021015-1.patch
 
 projects[special_menu_items][subdir]      = contrib
 projects[special_menu_items][patch][]     = https://drupal.org/files/special_menu_items-2102509-1.patch
@@ -116,7 +118,7 @@ projects[bean_style][type]              = module
 ; OMBU Themes
 projects[boots][download][type]           = git
 projects[boots][download][url]            = git@github.com:ombu/drupal-boots.git
-projects[boots][download][tag]            = 0.4.2
+projects[boots][download][tag]            = 0.4.3
 projects[boots][type]                     = theme
 
 ; Libraries
