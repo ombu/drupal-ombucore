@@ -118,7 +118,7 @@ projects[bean_style][type]              = module
 ; OMBU Themes
 projects[boots][download][type]           = git
 projects[boots][download][url]            = git@github.com:ombu/drupal-boots.git
-projects[boots][download][tag]            = 0.4.2
+projects[boots][download][tag]            = 0.4.3
 projects[boots][type]                     = theme
 
 ; Libraries
