@@ -57,67 +57,67 @@ projects[wysiwyg][patch][]                = https://drupal.org/files/wysiwyg-cke
 ; OMBU Modules
 projects[profile_tasks][subdir]           = custom
 projects[profile_tasks][download][type]   = git
-projects[profile_tasks][download][url]    = git@github.com:ombu/drupal-profile-tasks.git
+projects[profile_tasks][download][url]    = https://github.com/ombucore/drupal-profile-tasks.git
 projects[profile_tasks][download][tag]    = 0.1.1
 projects[profile_tasks][type]             = module
 
 projects[ombucleanup][subdir]             = custom
 projects[ombucleanup][download][type]     = git
-projects[ombucleanup][download][url]      = git@github.com:ombu/drupal-ombucleanup.git
+projects[ombucleanup][download][url]      = https://github.com/ombucore/drupal-ombucleanup.git
 projects[ombucleanup][download][tag]      = 0.4.3
 projects[ombucleanup][type]               = module
 
 projects[ombudashboard][subdir]           = custom
 projects[ombudashboard][download][type]   = git
-projects[ombudashboard][download][url]    = git@github.com:ombu/drupal-ombudashboard.git
+projects[ombudashboard][download][url]    = https://github.com/ombucore/drupal-ombudashboard.git
 projects[ombudashboard][download][tag]    = 0.3.1
 projects[ombudashboard][type]             = module
 
 projects[ombuseo][subdir]                 = custom
 projects[ombuseo][download][type]         = git
-projects[ombuseo][download][url]          = git@github.com:ombu/drupal-ombuseo.git
+projects[ombuseo][download][url]          = https://github.com/ombucore/drupal-ombuseo.git
 projects[ombuseo][download][tag]          = 0.4.1
 projects[ombuseo][type]                   = module
 
 projects[ombubeans][subdir]               = custom
 projects[ombubeans][download][type]       = git
-projects[ombubeans][download][url]        = git@github.com:ombu/drupal-ombubeans.git
+projects[ombubeans][download][url]        = https://github.com/ombucore/drupal-ombubeans.git
 projects[ombubeans][download][tag]        = 0.3.1
 projects[ombubeans][type]                 = module
 
 projects[beancontainer][subdir]           = custom
 projects[beancontainer][download][type]   = git
-projects[beancontainer][download][url]    = git@github.com:ombu/drupal-beancontainer.git
+projects[beancontainer][download][url]    = https://github.com/ombucore/drupal-beancontainer.git
 projects[beancontainer][download][tag]    = 0.2
 projects[beancontainer][type]             = module
 
 projects[tiles][subdir]                   = custom
 projects[tiles][download][type]           = git
-projects[tiles][download][url]            = git@github.com:ombu/drupal-tiles.git
+projects[tiles][download][url]            = https://github.com/ombucore/drupal-tiles.git
 projects[tiles][download][tag]            = 0.3.1
 projects[tiles][type]                     = module
 
 projects[ombuslide][subdir]               = custom
 projects[ombuslide][download][type]       = git
-projects[ombuslide][download][url]        = git@github.com:ombu/drupal-ombuslide.git
+projects[ombuslide][download][url]        = https://github.com/ombucore/drupal-ombuslide.git
 projects[ombuslide][download][tag]        = 0.3
 projects[ombuslide][type]                 = module
 
 projects[customauthor][subdir]            = custom
 projects[customauthor][download][type]    = git
-projects[customauthor][download][url]     = git@github.com:ombu/drupal-customauthor.git
+projects[customauthor][download][url]     = https://github.com/ombucore/drupal-customauthor.git
 projects[customauthor][download][tag]     = 0.2
 projects[customauthor][type]              = module
 
 projects[bean_style][subdir]            = custom
 projects[bean_style][download][type]    = git
-projects[bean_style][download][url]     = git@github.com:ombu/drupal-bean-style.git
+projects[bean_style][download][url]     = https://github.com/ombucore/drupal-bean-style.git
 projects[bean_style][download][tag]     = 0.1.1
 projects[bean_style][type]              = module
 
 ; OMBU Themes
 projects[boots][download][type]           = git
-projects[boots][download][url]            = git@github.com:ombu/drupal-boots.git
+projects[boots][download][url]            = https://github.com/ombucore/drupal-boots.git
 projects[boots][download][tag]            = 0.4.3
 projects[boots][type]                     = theme
 
