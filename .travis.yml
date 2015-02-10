@@ -36,4 +36,4 @@ script:
   # Currently script just tests whether drupal-installer can successfully build
   - mkdir public
   - cd public
-  - drush drupal-installer -d ombucore -u root -s "OmbuCore"
+  - drush drupal-installer --db-url=mysql://root@localhost/ombucore site-name=OmbuCore
