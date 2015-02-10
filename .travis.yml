@@ -31,9 +31,10 @@ before_script:
   # Create a new database for core site
   - mysql -e 'create database ombucore'
 
+  - mkdir public
+  - cd public
+
 script:
 
   # Currently script just tests whether drupal-installer can successfully build
-  - mkdir public
-  - cd public
   - drush drupal-installer --db-url=mysql://root@localhost/ombucore site-name=OmbuCore
