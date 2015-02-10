@@ -18,7 +18,7 @@ install:
   # install drupal-installer
   - mkdir -p ~/.drush
   - git clone https://github.com/ombucore/drupal-installer.git ~/.drush/drupal-installer
-  - drush clear-cache drush
+  - drush cache-clear drush
 
   # install butter (for site building)
   - sudo pip install git+git://github.com/ombu/butter.git
