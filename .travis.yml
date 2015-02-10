@@ -37,4 +37,4 @@ before_script:
 script:
 
   # Currently script just tests whether drupal-installer can successfully build
-  - drush drupal-installer --db-url=mysql://root@localhost/ombucore site-name=OmbuCore
+  - drush drupal-installer --db-url=mysql://root@localhost/ombucore --site-name=OmbuCore --version=release/0.8
