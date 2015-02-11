@@ -114,6 +114,12 @@ projects[bean_style][download][url]     = https://github.com/ombucore/drupal-bea
 projects[bean_style][download][tag]     = 0.1.1
 projects[bean_style][type]              = module
 
+projects[tagsadmin][subdir]            = custom
+projects[tagsadmin][download][type]    = git
+projects[tagsadmin][download][url]     = https://github.com/ombucore/drupal-tagsadmin.git
+projects[tagsadmin][download][tag]     = 0.1
+projects[tagsadmin][type]              = module
+
 ; OMBU Themes
 projects[boots][download][type]           = git
 projects[boots][download][url]            = https://github.com/ombucore/drupal-boots.git
