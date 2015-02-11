@@ -57,7 +57,7 @@ projects[wysiwyg][patch][]                = https://drupal.org/files/wysiwyg-cke
 projects[profile_tasks][subdir]           = custom
 projects[profile_tasks][download][type]   = git
 projects[profile_tasks][download][url]    = https://github.com/ombucore/drupal-profile-tasks.git
-projects[profile_tasks][download][tag]    = 0.1.1
+projects[profile_tasks][download][tag]    = 0.2
 projects[profile_tasks][type]             = module
 
 projects[ombucleanup][subdir]             = custom
