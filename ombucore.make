@@ -130,7 +130,7 @@ projects[tagsadmin][type]              = module
 ; OMBU Themes
 projects[boots][download][type]           = git
 projects[boots][download][url]            = https://github.com/ombucore/drupal-boots.git
-projects[boots][download][tag]            = 0.5
+projects[boots][download][tag]            = 0.6
 projects[boots][type]                     = theme
 
 ; Libraries
