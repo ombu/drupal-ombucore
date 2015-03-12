@@ -9,9 +9,7 @@ no_core = 1
 ; Modules
 projects[workbench_access][subdir]       = contrib
 projects[workbench_email][subdir]        = contrib
-projects[workbench_email][version]       = 2.2
 projects[workbench_moderation][subdir]   = contrib
-projects[workbench_moderation][patch][]  = https://drupal.org/files/workbench_moderation-fix_static_moderation_states_list-1911782-4.patch
 projects[workbench_moderation][patch][]  = https://drupal.org/files/workbench_moderation-state_order_in_form-2047391-1.patch
 projects[scheduler][subdir]              = contrib
 projects[date][subdir]                   = contrib
