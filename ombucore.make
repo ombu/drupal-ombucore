@@ -129,6 +129,6 @@ libraries[htmlpurifier][download][type]   = get
 libraries[htmlpurifier][download][url]    = http://htmlpurifier.org/releases/htmlpurifier-4.6.0.zip
 
 libraries[select2][download][type]         = get
-libraries[select2][download][url]          = https://github.com/ivaynberg/select2/archive/3.4.5.zip
+libraries[select2][download][url]          = https://github.com/ivaynberg/select2/archive/3.5.2.zip
 libraries[select2][directory_name]         = select2
 
