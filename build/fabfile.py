@@ -40,7 +40,7 @@ def qa():
     # env.settings.db_db = 'qaX'
     # env.settings.db_user = 'phpuser'
     # env.settings.db_pw = 'meh'
-    # env.settings.db_host = 'qadb.cpuj5trym3at.us-west-2.rds.amazonaws.com'
+    # env.settings.db_host = 'devdb1.ombudev.com'
 
 @task
 def staging():
@@ -56,4 +56,4 @@ def staging():
     # env.settings.db_db = 'stageX'
     # env.settings.db_user = 'phpuser'
     # env.settings.db_pw = 'meh'
-    # env.settings.db_host = 'qadb.cpuj5trym3at.us-west-2.rds.amazonaws.com'
+    # env.settings.db_host = 'devdb1.ombudev.com'
