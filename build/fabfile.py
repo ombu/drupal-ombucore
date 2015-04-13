@@ -26,12 +26,13 @@ def local():
     env.db_pw = 'meh'
     env.db_host = 'localhost'
 
+@task
 def qa():
     """
     The qa server definition
     """
     # TODO: fill out this info with the correct QA specs
-    # env.hosts = ['pepe.ombuweb.com']
+    # env.hosts = ['pepe.ombudev.com']
     # env.host_type = 'qa'
     # env.host_webserver_user = 'www-data'
     # env.host_site_path = '/var/www/qaX'
@@ -47,7 +48,7 @@ def staging():
     The staging server definition
     """
     # TODO: fill out this info with the correct Staging specs
-    # env.hosts = ['pepe.ombuweb.com']
+    # env.hosts = ['pepe.ombudev.com']
     # env.host_type = 'staging'
     # env.host_webserver_user = 'www-data'
     # env.host_site_path = '/var/www/stageX'
