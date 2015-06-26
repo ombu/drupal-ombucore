@@ -1,5 +1,5 @@
-name = __SITE_NAME__ Theme
-description = __SITE_NAME__ Theme
+name = __SITENAME__ Theme
+description = __SITENAME__ Theme
 base theme = boots_grid
 package = OMBU
 version = 7.x-0.1

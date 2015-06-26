@@ -1,0 +1,43 @@
+language: php
+
+php:
+  - 5.4
+
+before_install:
+  - sudo apt-get update > /dev/null
+
+install:
+  # add composer's global bin directory to the path
+  # see: https://github.com/drush-ops/drush#install---composer
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+  # install drush globally
+  - composer self-update
+  - composer global require drush/drush:6.*
+
+  # install drupal-installer
+  - mkdir -p ~/.drush
+  - git clone https://github.com/ombucore/drupal-installer.git ~/.drush/drupal-installer
+  - drush cache-clear drush
+
+  # install butter (for site building)
+  - sudo pip install git+git://github.com/ombu/butter.git
+
+before_script:
+
+  # Prevent sendmail errors
+  - echo 'sendmail_path=`which true`' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+
+  # Create a new database for core site
+  - mysql -e 'create database ombucore'
+
+  - mkdir public
+  - cd public
+
+script:
+
+  # Currently script just tests whether drupal-installer can successfully build
+  - drush drupal-installer --db-url=mysql://root@localhost/ombucore --site-name=OmbuCore --version=release/0.8
+
+notifications:
+  irc: "irc.freenode.org#ombu"
