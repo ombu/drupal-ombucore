@@ -26,6 +26,10 @@ ini_set('session.cookie_lifetime', 2000000);
 
 $conf['environment'] = 'staging';
 
+// Most errors should display for staging environment.
+error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED);
+$conf['error_level'] = 2;
+
 // Caching on staging.
 $conf['block_cache'] = 1;
 $conf['cache'] = 1;

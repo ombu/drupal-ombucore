@@ -15,6 +15,10 @@ $databases = array (
   ),
 );
 
+// All errors should display for development environment.
+error_reporting(E_ALL);
+$conf['error_level'] = 2;
+
 $update_free_access = FALSE;
 
 $drupal_hash_salt = '3QhjnBPnHeOAYAAD9CszCD1CZ1dxqXsA5iTupBK5Zvk';
