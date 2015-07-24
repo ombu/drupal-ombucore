@@ -64,7 +64,7 @@ projects[wysiwyg][patch][]                = https://drupal.org/files/wysiwyg-cke
 projects[profile_tasks][subdir]           = custom
 projects[profile_tasks][download][type]   = git
 projects[profile_tasks][download][url]    = https://github.com/ombucore/drupal-profile-tasks.git
-projects[profile_tasks][download][tag]    = 0.2
+projects[profile_tasks][download][tag]    = 0.3
 projects[profile_tasks][type]             = module
 
 projects[ombucleanup][subdir]             = custom
@@ -100,7 +100,7 @@ projects[beancontainer][type]             = module
 projects[tiles][subdir]                   = custom
 projects[tiles][download][type]           = git
 projects[tiles][download][url]            = https://github.com/ombucore/drupal-tiles.git
-projects[tiles][download][tag]            = 0.4
+projects[tiles][download][tag]            = 0.5
 projects[tiles][type]                     = module
 
 projects[ombuslide][subdir]               = custom
@@ -118,7 +118,7 @@ projects[customauthor][type]              = module
 projects[bean_style][subdir]            = custom
 projects[bean_style][download][type]    = git
 projects[bean_style][download][url]     = https://github.com/ombucore/drupal-bean-style.git
-projects[bean_style][download][tag]     = 0.2
+projects[bean_style][download][tag]     = 0.3
 projects[bean_style][type]              = module
 
 projects[tagsadmin][subdir]            = custom
@@ -130,7 +130,7 @@ projects[tagsadmin][type]              = module
 ; OMBU Themes
 projects[boots][download][type]           = git
 projects[boots][download][url]            = https://github.com/ombucore/drupal-boots.git
-projects[boots][download][tag]            = 0.6
+projects[boots][download][tag]            = 0.7
 projects[boots][type]                     = theme
 
 ; Libraries
