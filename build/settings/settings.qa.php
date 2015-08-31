@@ -26,6 +26,10 @@ ini_set('session.cookie_lifetime', 2000000);
 
 $conf['environment'] = 'qa';
 
+// Most errors should display for qa environment.
+error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED);
+$conf['error_level'] = 2;
+
 // Caching on qa.
 $conf['block_cache'] = 1;
 $conf['cache'] = 1;

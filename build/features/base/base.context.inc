@@ -40,12 +40,6 @@ function base_context_default_contexts() {
         ),
         'ombucleanup-page_title' => array(
           'module' => 'ombucleanup',
-          'delta' => 'content_top',
-          'region' => 'content',
-          'weight' => '15',
-        ),
-        'ombucleanup-page_title' => array(
-          'module' => 'ombucleanup',
           'delta' => 'page_title',
           'region' => 'content',
           'weight' => '-10',
