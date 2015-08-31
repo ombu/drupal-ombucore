@@ -88,7 +88,7 @@ projects[ombuseo][type]                   = module
 projects[ombubeans][subdir]               = custom
 projects[ombubeans][download][type]       = git
 projects[ombubeans][download][url]        = https://github.com/ombucore/drupal-ombubeans.git
-projects[ombubeans][download][tag]        = 0.4
+projects[ombubeans][download][tag]        = 0.5
 projects[ombubeans][type]                 = module
 
 projects[beancontainer][subdir]           = custom
