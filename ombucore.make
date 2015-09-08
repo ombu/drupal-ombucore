@@ -137,6 +137,11 @@ projects[boots][type]                     = theme
 libraries[ckeditor][download][type]       = get
 libraries[ckeditor][download][url]        = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.2/ckeditor_4.4.2_full.zip
 
+libraries[widget][download][type]       = get
+libraries[widget][download][url]        = http://download.ckeditor.com/widget/releases/widget_4.4.2.zip
+libraries[widget][subdir]               = ckeditor/plugins
+libraries[widget][directory_name]       = widget
+
 libraries[htmlpurifier][download][type]   = get
 libraries[htmlpurifier][download][url]    = http://htmlpurifier.org/releases/htmlpurifier-4.6.0.zip
 
