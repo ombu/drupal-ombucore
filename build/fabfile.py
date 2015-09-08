@@ -9,7 +9,6 @@ env.use_ssh_config = 'true'
 
 # Global environment settings
 env.site_name = '__SITENAME__'
-env.db_db = '__DBNAME__'
 env.public_path = 'public'
 env.site_profile = '__PROFILENAME__'
 
@@ -22,6 +21,7 @@ def local():
     """
     The local host definition
     """
+    env.db_db = '__DBNAME__'
     env.db_user = 'phpuser'
     env.db_pw = 'meh'
     env.db_host = 'localhost'
