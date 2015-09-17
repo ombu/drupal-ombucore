@@ -1,2 +1,5 @@
 add:
-  - __SHORTNAME___base
+  - ombudemo_profile_base
+  - tiles_section
+  - bean_fpo
+  - ombumedia_image_position
