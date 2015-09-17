@@ -38,12 +38,6 @@ projects[date_popup_authored][subdir]     = contrib
 projects[htmlpurifier][subdir]            = contrib
 projects[htmlpurifier][version]           = 2.x-dev
 
-projects[media][subdir]                   = contrib
-projects[media][version]                  = 2.0-alpha1
-; Combined patch to make media work with jQuery 1.10
-; See https://gist.github.com/duellj/9957265
-projects[media][patch][]                  = https://gist.githubusercontent.com/duellj/9957265/raw/b7f2ba0e222e52a6b5a65dfced020ac6adcd4dc5/gistfile1.diff
-
 projects[file_entity][subdir]             = contrib
 projects[file_entity][patch][]            = https://www.drupal.org/files/2052461-file-usage-filter-boolean-8.patch
 
@@ -64,7 +58,7 @@ projects[wysiwyg][patch][]                = https://drupal.org/files/wysiwyg-cke
 projects[profile_tasks][subdir]           = custom
 projects[profile_tasks][download][type]   = git
 projects[profile_tasks][download][url]    = https://github.com/ombucore/drupal-profile-tasks.git
-projects[profile_tasks][download][tag]    = 0.3.1
+projects[profile_tasks][download][tag]    = 0.3.2
 projects[profile_tasks][type]             = module
 
 projects[ombucleanup][subdir]             = custom
@@ -76,7 +70,7 @@ projects[ombucleanup][type]               = module
 projects[ombudashboard][subdir]           = custom
 projects[ombudashboard][download][type]   = git
 projects[ombudashboard][download][url]    = https://github.com/ombucore/drupal-ombudashboard.git
-projects[ombudashboard][download][tag]    = 0.4
+projects[ombudashboard][download][tag]    = 0.4.1
 projects[ombudashboard][type]             = module
 
 projects[ombuseo][subdir]                 = custom
@@ -106,7 +100,7 @@ projects[tiles][type]                     = module
 projects[ombuslide][subdir]               = custom
 projects[ombuslide][download][type]       = git
 projects[ombuslide][download][url]        = https://github.com/ombucore/drupal-ombuslide.git
-projects[ombuslide][download][tag]        = 0.3
+projects[ombuslide][download][tag]        = 0.3.2
 projects[ombuslide][type]                 = module
 
 projects[customauthor][subdir]            = custom
@@ -127,6 +121,12 @@ projects[tagsadmin][download][url]     = https://github.com/ombucore/drupal-tags
 projects[tagsadmin][download][tag]     = 0.1
 projects[tagsadmin][type]              = module
 
+projects[ombumedia][subdir]            = custom
+projects[ombumedia][download][type]    = git
+projects[ombumedia][download][url]     = https://github.com/ombucore/drupal-ombumedia.git
+projects[ombumedia][download][tag]     = 0.1.1
+projects[ombumedia][type]              = module
+
 ; OMBU Themes
 projects[boots][download][type]           = git
 projects[boots][download][url]            = https://github.com/ombucore/drupal-boots.git
@@ -136,6 +136,16 @@ projects[boots][type]                     = theme
 ; Libraries
 libraries[ckeditor][download][type]       = get
 libraries[ckeditor][download][url]        = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.2/ckeditor_4.4.2_full.zip
+
+libraries[widget][download][type]       = get
+libraries[widget][download][url]        = http://download.ckeditor.com/widget/releases/widget_4.4.2.zip
+libraries[widget][subdir]               = ckeditor/plugins
+libraries[widget][directory_name]       = widget
+
+libraries[lineutils][download][type]       = get
+libraries[lineutils][download][url]        = http://download.ckeditor.com/lineutils/releases/lineutils_4.4.8.zip
+libraries[lineutils][subdir]               = ckeditor/plugins
+libraries[lineutils][directory_name]       = lineutils
 
 libraries[htmlpurifier][download][type]   = get
 libraries[htmlpurifier][download][url]    = http://htmlpurifier.org/releases/htmlpurifier-4.6.0.zip

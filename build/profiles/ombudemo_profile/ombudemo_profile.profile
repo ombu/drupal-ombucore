@@ -2,5 +2,5 @@
 
 /**
  * @file
- * Base Tiles Profile.
+ * Base OMBU Demo Profile.
  */

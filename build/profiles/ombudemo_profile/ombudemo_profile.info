@@ -1,5 +1,5 @@
-name = OmbuProfile
-description = OmbuProfile installation profile.
+name = OMBU Demo profile
+description = OMBU Demo profile
 version = VERSION
 core = 7.x
 
