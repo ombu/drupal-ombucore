@@ -64,13 +64,13 @@ projects[wysiwyg][patch][]                = https://drupal.org/files/wysiwyg-cke
 projects[profile_tasks][subdir]           = custom
 projects[profile_tasks][download][type]   = git
 projects[profile_tasks][download][url]    = https://github.com/ombucore/drupal-profile-tasks.git
-projects[profile_tasks][download][tag]    = 0.3
+projects[profile_tasks][download][tag]    = 0.3.1
 projects[profile_tasks][type]             = module
 
 projects[ombucleanup][subdir]             = custom
 projects[ombucleanup][download][type]     = git
 projects[ombucleanup][download][url]      = https://github.com/ombucore/drupal-ombucleanup.git
-projects[ombucleanup][download][tag]      = 0.5
+projects[ombucleanup][download][tag]      = 0.6
 projects[ombucleanup][type]               = module
 
 projects[ombudashboard][subdir]           = custom
@@ -88,7 +88,7 @@ projects[ombuseo][type]                   = module
 projects[ombubeans][subdir]               = custom
 projects[ombubeans][download][type]       = git
 projects[ombubeans][download][url]        = https://github.com/ombucore/drupal-ombubeans.git
-projects[ombubeans][download][tag]        = 0.4
+projects[ombubeans][download][tag]        = 0.5
 projects[ombubeans][type]                 = module
 
 projects[beancontainer][subdir]           = custom
