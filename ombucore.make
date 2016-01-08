@@ -64,7 +64,7 @@ projects[profile_tasks][type]             = module
 projects[ombucleanup][subdir]             = custom
 projects[ombucleanup][download][type]     = git
 projects[ombucleanup][download][url]      = https://github.com/ombucore/drupal-ombucleanup.git
-projects[ombucleanup][download][tag]      = 0.6
+projects[ombucleanup][download][tag]      = 0.7
 projects[ombucleanup][type]               = module
 
 projects[ombudashboard][subdir]           = custom
@@ -76,32 +76,32 @@ projects[ombudashboard][type]             = module
 projects[ombuseo][subdir]                 = custom
 projects[ombuseo][download][type]         = git
 projects[ombuseo][download][url]          = https://github.com/ombucore/drupal-ombuseo.git
-projects[ombuseo][download][tag]          = 0.4.1
+projects[ombuseo][download][tag]          = 0.4.2
 projects[ombuseo][type]                   = module
 
 projects[ombubeans][subdir]               = custom
 projects[ombubeans][download][type]       = git
 projects[ombubeans][download][url]        = https://github.com/ombucore/drupal-ombubeans.git
-projects[ombubeans][download][tag]        = 0.5
+projects[ombubeans][download][tag]        = 0.6
 projects[ombubeans][type]                 = module
 
 projects[beancontainer][subdir]           = custom
 projects[beancontainer][download][type]   = git
 projects[beancontainer][download][url]    = https://github.com/ombucore/drupal-beancontainer.git
-projects[beancontainer][download][tag]    = 0.3
+projects[beancontainer][download][tag]    = 0.4
 projects[beancontainer][type]             = module
 
 projects[tiles][subdir]                   = custom
 projects[tiles][download][type]           = git
 projects[tiles][download][url]            = https://github.com/ombucore/drupal-tiles.git
-projects[tiles][download][tag]            = 0.5
+projects[tiles][download][tag]            = 0.6
 projects[tiles][type]                     = module
 
-projects[ombuslide][subdir]               = custom
-projects[ombuslide][download][type]       = git
-projects[ombuslide][download][url]        = https://github.com/ombucore/drupal-ombuslide.git
-projects[ombuslide][download][tag]        = 0.3.2
-projects[ombuslide][type]                 = module
+projects[ombugallery][subdir]               = custom
+projects[ombugallery][download][type]       = git
+projects[ombugallery][download][url]        = https://github.com/ombucore/drupal-ombugallery.git
+projects[ombugallery][download][tag]        = 0.4
+projects[ombugallery][type]                 = module
 
 projects[customauthor][subdir]            = custom
 projects[customauthor][download][type]    = git
@@ -112,7 +112,7 @@ projects[customauthor][type]              = module
 projects[bean_style][subdir]            = custom
 projects[bean_style][download][type]    = git
 projects[bean_style][download][url]     = https://github.com/ombucore/drupal-bean-style.git
-projects[bean_style][download][tag]     = 0.3
+projects[bean_style][download][tag]     = 0.4
 projects[bean_style][type]              = module
 
 projects[tagsadmin][subdir]            = custom
@@ -121,16 +121,22 @@ projects[tagsadmin][download][url]     = https://github.com/ombucore/drupal-tags
 projects[tagsadmin][download][tag]     = 0.1
 projects[tagsadmin][type]              = module
 
+projects[ombudev][subdir]            = custom
+projects[ombudev][download][type]    = git
+projects[ombudev][download][url]     = https://github.com/ombucore/drupal-ombudev.git
+projects[ombudev][download][tag]     = 0.1
+projects[ombudev][type]              = module
+
 projects[ombumedia][subdir]            = custom
 projects[ombumedia][download][type]    = git
 projects[ombumedia][download][url]     = https://github.com/ombucore/drupal-ombumedia.git
-projects[ombumedia][download][tag]     = 0.1.1
+projects[ombumedia][download][tag]     = 0.1
 projects[ombumedia][type]              = module
 
 ; OMBU Themes
 projects[boots][download][type]           = git
 projects[boots][download][url]            = https://github.com/ombucore/drupal-boots.git
-projects[boots][download][tag]            = 0.7
+projects[boots][download][tag]            = 0.8
 projects[boots][type]                     = theme
 
 ; Libraries
