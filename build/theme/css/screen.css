@@ -165,26 +165,25 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.phpdebugbar-header-right .phpdebugbar-indicator:nth-of-type(1):after {
+  margin-left: 0.25em;
+}
+.phpdebugbar-header-right .phpdebugbar-indicator:nth-of-type(1) > i.fa {
+  width: 16px;
+  text-align: center;
+}
+.phpdebugbar-header-right .phpdebugbar-indicator:nth-of-type(1) > i.fa:before {
+  display: inline-block;
+}
 .field.c .lead {
   font-size: 120%;
   font-weight: bold;
 }
-.field.c pre.pull-left {
+.field.c .pull-left {
   clear: left;
 }
-.field.c pre.pull-right {
+.field.c .pull-right {
   clear: right;
-}
-.field.c pre.pull-left,
-.field.c pre.pull-right {
-  font-family: inherit;
-  white-space: normal;
-  word-break: normal;
-  word-wrap: normal;
-}
-.field.c pre.pull-left .field-name-field-caption,
-.field.c pre.pull-right .field-name-field-caption {
-  margin-top: 0.5em;
 }
 .field.c ul,
 .field.c ol {
@@ -193,33 +192,23 @@ table {
 .field.c iframe {
   max-width: 100%;
 }
+.field.c img {
+  max-width: 100%;
+}
 @media (min-width: 480px) {
-  .field.c pre.pull-left,
-  .field.c blockquote.pull-left,
-  .field.c p.pull-left,
-  .field.c pre.pull-right,
-  .field.c blockquote.pull-right,
-  .field.c p.pull-right {
+  .field.c .pull-left,
+  .field.c .pull-right {
     width: 50%;
     max-width: 350px;
     margin: 0.5em 0;
   }
-  .field.c pre.pull-left,
-  .field.c blockquote.pull-left,
-  .field.c p.pull-left {
+  .field.c .pull-left {
     float: left;
     margin-right: 1.0em;
   }
-  .field.c pre.pull-right,
-  .field.c blockquote.pull-right,
-  .field.c p.pull-right {
+  .field.c .pull-right {
     float: right;
     margin-left: 1.0em;
-  }
-  .field.c pre img,
-  .field.c blockquote img,
-  .field.c p img {
-    max-width: 100%;
   }
 }
 div[data-type="region"][data-name="console"] {
@@ -451,21 +440,6 @@ body:before {
   color: rgba(255, 255, 255, 0.8);
   z-index: 9999;
 }
-body:after {
-  content: 'Media response: Base';
-  position: fixed;
-  bottom: 0em;
-  left: 0;
-  padding: 0.5em 1.0em;
-  height: 2.0em;
-  font-size: 13px;
-  line-height: 13px;
-  background-color: black;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: #cccccc;
-  color: rgba(255, 255, 255, 0.8);
-  z-index: 9999;
-}
 html {
   font-size: 62.5%;
 }
@@ -495,56 +469,7 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
-@media (min-width: 320px) {
-  body:after {
-    content: 'Media response: Smartphone';
-    position: fixed;
-    bottom: 0em;
-    left: 0;
-    padding: 0.5em 1.0em;
-    height: 2.0em;
-    font-size: 13px;
-    line-height: 13px;
-    background-color: black;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #cccccc;
-    color: rgba(255, 255, 255, 0.8);
-    z-index: 9999;
-  }
-}
-@media (min-width: 480px) {
-  body:after {
-    content: 'Media response: Smartphone Landscape';
-    position: fixed;
-    bottom: 0em;
-    left: 0;
-    padding: 0.5em 1.0em;
-    height: 2.0em;
-    font-size: 13px;
-    line-height: 13px;
-    background-color: black;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #cccccc;
-    color: rgba(255, 255, 255, 0.8);
-    z-index: 9999;
-  }
-}
 @media (min-width: 768px) {
-  body:after {
-    content: 'Media response: Tablet';
-    position: fixed;
-    bottom: 0em;
-    left: 0;
-    padding: 0.5em 1.0em;
-    height: 2.0em;
-    font-size: 13px;
-    line-height: 13px;
-    background-color: black;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #cccccc;
-    color: rgba(255, 255, 255, 0.8);
-    z-index: 9999;
-  }
   #page > [data-type="region"] > .container,
   #page > [data-type="region-container"] > .container,
   #page > [data-type="region-container"][data-name="sections"] > .field-type-tiles-section [data-type="region"][data-name="section"] > .container,
@@ -567,21 +492,6 @@ body {
   }
 }
 @media (min-width: 992px) {
-  body:after {
-    content: 'Media response: Desktop';
-    position: fixed;
-    bottom: 0em;
-    left: 0;
-    padding: 0.5em 1.0em;
-    height: 2.0em;
-    font-size: 13px;
-    line-height: 13px;
-    background-color: black;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #cccccc;
-    color: rgba(255, 255, 255, 0.8);
-    z-index: 9999;
-  }
   #page > [data-type="region"] > .container,
   #page > [data-type="region-container"] > .container,
   #page > [data-type="region-container"][data-name="sections"] > .field-type-tiles-section [data-type="region"][data-name="section"] > .container,
@@ -601,23 +511,6 @@ body {
   #page > [data-type="region-container"][data-name="sections"] > .field-type-tiles-section [data-type="region"][data-name="section"] > .container > .container {
     padding-left: 0;
     padding-right: 0;
-  }
-}
-@media (min-width: 1200px) {
-  body:after {
-    content: 'Media response: Wide desktop';
-    position: fixed;
-    bottom: 0em;
-    left: 0;
-    padding: 0.5em 1.0em;
-    height: 2.0em;
-    font-size: 13px;
-    line-height: 13px;
-    background-color: black;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #cccccc;
-    color: rgba(255, 255, 255, 0.8);
-    z-index: 9999;
   }
 }
 _:-moz-tree-row(hover),
