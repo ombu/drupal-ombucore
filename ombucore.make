@@ -13,7 +13,6 @@ projects[drupal][patch][] = https://drupal.org/files/issues/471970_0.patch
 ; Contrib Modules
 projects[bean][subdir]                    = contrib
 projects[context][subdir]                 = contrib
-projects[select2][subdir]                 = contrib
 projects[ctools][subdir]                  = contrib
 projects[devel][subdir]                   = contrib
 projects[diff][subdir]                    = contrib
@@ -47,6 +46,9 @@ projects[oembed][patch][]                 = https://www.drupal.org/files/oembed-
 
 projects[special_menu_items][subdir]      = contrib
 projects[special_menu_items][patch][]     = https://drupal.org/files/special_menu_items-2102509-1.patch
+
+projects[select2][subdir]                 = contrib
+projects[select2][patch][]                = https://gist.githubusercontent.com/duellj/ea7b0bfecde05ac6f61ba7f8d3a944aa/raw/3d97d7f7099c95f05a1eb5b6c32b3240c94aea15/select2-excludes-fix.patch
 
 projects[securepages][subdir]             = contrib
 projects[securepages][patch][]            = https://www.drupal.org/files/issues/securepages-pathauto_issues-2347127-1.patch
