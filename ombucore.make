@@ -111,7 +111,7 @@ projects[customauthor][type]              = module
 projects[bean_style][subdir]            = custom
 projects[bean_style][download][type]    = git
 projects[bean_style][download][url]     = https://github.com/ombucore/drupal-bean-style.git
-projects[bean_style][download][tag]     = 0.5.2
+projects[bean_style][download][tag]     = 0.5.1
 projects[bean_style][type]              = module
 
 projects[tagsadmin][subdir]            = custom
