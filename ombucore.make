@@ -140,22 +140,22 @@ projects[boots][type]                     = theme
 
 ; Libraries
 libraries[ckeditor][download][type]       = get
-libraries[ckeditor][download][url]        = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.2/ckeditor_4.4.2_full.zip
+libraries[ckeditor][download][url]        = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.7.3/ckeditor_4.7.3_full.zip
 
 libraries[widget][download][type]       = get
-libraries[widget][download][url]        = http://download.ckeditor.com/widget/releases/widget_4.4.2.zip
+libraries[widget][download][url]        = https://download.ckeditor.com/widget/releases/widget_4.7.3.zip
 libraries[widget][subdir]               = ckeditor/plugins
 libraries[widget][directory_name]       = widget
 
 libraries[lineutils][download][type]       = get
-libraries[lineutils][download][url]        = http://download.ckeditor.com/lineutils/releases/lineutils_4.4.8.zip
+libraries[lineutils][download][url]        = https://download.ckeditor.com/lineutils/releases/lineutils_4.7.3.zip
 libraries[lineutils][subdir]               = ckeditor/plugins
 libraries[lineutils][directory_name]       = lineutils
 
 libraries[htmlpurifier][download][type]   = get
-libraries[htmlpurifier][download][url]    = http://htmlpurifier.org/releases/htmlpurifier-4.6.0.zip
+libraries[htmlpurifier][download][url]    = http://htmlpurifier.org/releases/htmlpurifier-4.9.3.zip
 
 libraries[select2][download][type]         = get
-libraries[select2][download][url]          = https://github.com/ivaynberg/select2/archive/3.5.2.zip
+libraries[select2][download][url]          = https://github.com/select2/select2/archive/4.0.3.zip
 libraries[select2][directory_name]         = select2
 
