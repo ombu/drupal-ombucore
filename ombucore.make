@@ -22,6 +22,7 @@ projects[entityreference][subdir]         = contrib
 projects[features][subdir]                = contrib
 projects[field_collection][subdir]        = contrib
 projects[field_group][subdir]             = contrib
+projects[file_entity][subdir]             = contrib
 projects[jquery_update][subdir]           = contrib
 projects[libraries][subdir]               = contrib
 projects[link][subdir]                    = contrib
