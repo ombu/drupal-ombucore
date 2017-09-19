@@ -129,7 +129,7 @@ projects[ombudev][type]              = module
 projects[ombumedia][subdir]            = custom
 projects[ombumedia][download][type]    = git
 projects[ombumedia][download][url]     = https://github.com/ombucore/drupal-ombumedia.git
-projects[ombumedia][download][tag]     = 0.3
+projects[ombumedia][download][tag]     = 0.3.1
 projects[ombumedia][type]              = module
 
 ; OMBU Themes
