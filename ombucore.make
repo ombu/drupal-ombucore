@@ -58,7 +58,7 @@ projects[wysiwyg][subdir]                 = contrib
 projects[profile_tasks][subdir]           = custom
 projects[profile_tasks][download][type]   = git
 projects[profile_tasks][download][url]    = https://github.com/ombucore/drupal-profile-tasks.git
-projects[profile_tasks][download][tag]    = 0.5
+projects[profile_tasks][download][tag]    = 0.5.1
 projects[profile_tasks][type]             = module
 
 projects[ombucleanup][subdir]             = custom
