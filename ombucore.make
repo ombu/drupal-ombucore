@@ -52,7 +52,6 @@ projects[securepages][subdir]             = contrib
 projects[securepages][patch][]            = https://www.drupal.org/files/issues/securepages-pathauto_issues-2347127-1.patch
 
 projects[wysiwyg][subdir]                 = contrib
-projects[wysiwyg][patch][]                = https://drupal.org/files/wysiwyg-ckeditor-4.1853550.136.patch
 
 ; OMBU Modules
 projects[profile_tasks][subdir]           = custom
