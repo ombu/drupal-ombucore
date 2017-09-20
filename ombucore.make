@@ -69,7 +69,7 @@ projects[ombucleanup][type]               = module
 projects[ombudashboard][subdir]           = custom
 projects[ombudashboard][download][type]   = git
 projects[ombudashboard][download][url]    = https://github.com/ombucore/drupal-ombudashboard.git
-projects[ombudashboard][download][tag]    = 0.5.1
+projects[ombudashboard][download][tag]    = 0.5.2
 projects[ombudashboard][type]             = module
 
 projects[ombuseo][subdir]                 = custom
@@ -140,15 +140,20 @@ projects[boots][type]                     = theme
 
 ; Libraries
 libraries[ckeditor][download][type]       = get
-libraries[ckeditor][download][url]        = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.7.3/ckeditor_4.7.3_full.zip
+libraries[ckeditor][download][url]        = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.6.2/ckeditor_4.6.2_full.zip
 
 libraries[widget][download][type]       = get
-libraries[widget][download][url]        = https://download.ckeditor.com/widget/releases/widget_4.7.3.zip
+libraries[widget][download][url]        = https://download.ckeditor.com/widget/releases/widget_4.6.2.zip
 libraries[widget][subdir]               = ckeditor/plugins
 libraries[widget][directory_name]       = widget
 
+libraries[widget][download][type]       = get
+libraries[widget][download][url]        = https://download.ckeditor.com/widgetselection/releases/widgetselection_4.6.2.zip
+libraries[widget][subdir]               = ckeditor/plugins
+libraries[widget][directory_name]       = widgetselection
+
 libraries[lineutils][download][type]       = get
-libraries[lineutils][download][url]        = https://download.ckeditor.com/lineutils/releases/lineutils_4.7.3.zip
+libraries[lineutils][download][url]        = https://download.ckeditor.com/lineutils/releases/lineutils_4.6.2.zip
 libraries[lineutils][subdir]               = ckeditor/plugins
 libraries[lineutils][directory_name]       = lineutils
 
